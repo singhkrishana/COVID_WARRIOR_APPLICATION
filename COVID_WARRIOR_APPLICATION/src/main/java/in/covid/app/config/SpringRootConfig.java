@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan(basePackages = { "in.ezeon.capp.dao", "in.ezeon.capp.service" })
+@ComponentScan(basePackages = { "in.covid.app.dao", "in.covid.app.service" })
 public class SpringRootConfig {
 	@Bean
 	public BasicDataSource getDataSource() {
