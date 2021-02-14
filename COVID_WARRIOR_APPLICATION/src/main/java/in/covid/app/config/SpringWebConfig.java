@@ -11,7 +11,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
-@ComponentScan(basePackages = { "in.ezeon" })
+@ComponentScan(basePackages = { "in.covid"})
 @EnableWebMvc
 public class SpringWebConfig extends WebMvcConfigurerAdapter {
 
